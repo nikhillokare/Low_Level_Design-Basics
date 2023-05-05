@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+class Human{
+    public:
+    //properties
+    int age;
+    int weight;
+    
+    //Behaviour
+    void sleep(){
+       cout<<"Im Sleeping"<<endl; 
+    }
+    void eat(){
+        cout<<"Im Eating"<<endl;
+    }
+};
+int main() {
+    Human h;
+    h.age = 24;
+    cout<<h.age<<endl;
+    h.weight=20;
+    cout<<h.weight<<endl;
+    h.sleep();
+    h.eat();
+
+    return 0;
+}
